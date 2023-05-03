@@ -16,6 +16,10 @@ const routes = [
         index: true,
         element: <Loginpage />,
       },
+     {
+        path: ":code",
+        element: <Loginpage />,
+      },
     ],
   },
   {
