@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.butonforedit {
+  border: 1px solid gray;
+  padding: 0px 5px;
+}
+.butonforedit:hover {
+  border-color: #69b1ff;
+}
+
+.everydisplay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ant-modal-content {
+  background-color: transparent;
+
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+/* .anticon svg {
+  color: white;
+} */
+
+#header-modal h3 {
+  color: white;
+}
+
+#header-modal h5 {
+  color: white;
+}
+.container {
+  height: 100%;
+}
+* {
+  font-family: Manrope;
+}
+.ant-modal-close {
+  width: max-content;
+  font-family: Manrope;
+}
+.ant-modal-mask,
+.ant-modal-body {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.ant-modal .ant-modal-content {
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.ant-upload-list-item-container {
+  width: min-content;
+}
+
+/* .ant-btn {
+  background-color: white !important;
+  color: rgb(0, 0, 0) !important;
+} */
+
+/* .ant-btn:hover {
+  background-color: #69b1ff !important;
+  color: white !important;
+} */
+
+.ant-input-number-handler-wrap {
+  display: none !important;
+}
+
+/* .css-dev-only-do-not-override-26rdvq, */
+.ant-switch-checked {
+  background-color: #69b1ff !important;
+}
+
+.ant-switch {
+  background-color: darkgray;
+}
+.ant-layout-content .layout_content {
+  padding: 0px !important;
+}
+.ant-card .ant-card-body {
+  padding: 0px !important;
+}

@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-card-head {
+  @apply border-0 !important;
+  @apply px-1.5;
+}
+.ant-divider-inner-text {
+  @apply inline-block text-sm;
+}
+.ant-card-head-title {
+  @apply py-2 pb-0;
+}
+
+.ant-card-head-title {
+  @apply pb-0 !important;
+}
+.ant-btn {
+  background-color: #1890ff !important;
+}
+.ant-btn > span {
+  color: aliceblue !important;
+}
+
+:where(.css-dev-only-do-not-override-26rdvq).ant-divider-horizontal:where(
+    .css-dev-only-do-not-override-26rdvq
+  ).ant-divider-with-text-left::after,
+.ant-divider-with-text-left::before {
+  width: 0 !important;
+}
+
+/* :where(.css-dev-only-do-not-override-26rdvq).ant-tag {
+  margin-inline-end: 0px;
+} */
+.slider_main .slick-slide div {
+  background-color: #fff;
+}
+.slider_main .slick-slide div img {
+  padding: 24px;
+}
+.slick-next {
+  right: 24px !important;
+  z-index: 99;
+}
+.slick-prev {
+  left: 24px !important;
+  z-index: 99;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #7a7b7c !important;
+}
+.ant-card-bordered {
+  margin: 0px 18px;
+}
+.ant-layout-content .layout_content {
+  padding: 0px !important;
+}
